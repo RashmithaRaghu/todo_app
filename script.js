@@ -17,6 +17,7 @@ input.addEventListener("keydown",function(e){
             span.classList.toggle("completed");
             li.classList.toggle("done");
         });
+        
         li.appendChild(checkbox);
         li.appendChild(span);
         list.appendChild(li);
